@@ -1,0 +1,17 @@
+meta {
+  name: identificacion
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:3000/identificacion/245678?nombre=pepe&edad=25&ciudad=cucuta
+  body: none
+  auth: none
+}
+
+params:query {
+  nombre: pepe
+  edad: 25
+  ciudad: cucuta
+}
